@@ -1,248 +1,565 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kourosh Sajjadi</title>
-<meta name="description" content="Kourosh Sajjadi — Computer Engineering student at the University of Tehran, working across software engineering and applied AI.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a href="#top" class="logo">KOUROSH SAJJADI</a>
-    <nav class="site-nav">
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<main id="top">
-
-  <section class="hero">
-    <div class="wrap hero-inner">
-      <div class="hero-text">
-        <p class="eyebrow">B.SC. COMPUTER ENGINEERING &middot; UNIVERSITY OF TEHRAN</p>
-        <h1>Hi, I'm Kourosh.</h1>
-        <p>I'm a final-year Computer Engineering student at the University of Tehran (GPA 18.91/20, top 5% of my cohort), working across software engineering and applied AI. Most of my time right now goes into three research projects: a task-grounded LLM code review pipeline, a post-earthquake building damage assessment system combining optical and SAR imagery, and an evaluation framework built on LLM-simulated Persian students for AI tutoring.</p>
-        <p>I'm also part-time at RastAI, building Kotlin/Spring backends, Next.js frontends, and the AI components of an LLM-powered learning platform. Outside of that, I TA a handful of core CS courses and spend a fair amount of time on paper reproductions and course projects in computer vision, deep learning, and distributed systems.</p>
-        <div class="hero-actions">
-          <a href="assets/CV_Kourosh_Sajjadi.pdf" target="_blank" rel="noopener" class="btn btn-primary">View my CV</a>
-          <a href="#contact" class="btn btn-secondary">Get in touch</a>
-        </div>
-        <ul class="contact-row">
-          <li>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.4 7.4 6.1a.9.9 0 0 0 1.14 0l7.4-6.1a.6.6 0 0 0-.38-1.07H4.6a.6.6 0 0 0-.4 1.07Z"/></svg>
-            <a href="mailto:kouroshsajjadi@yahoo.com">kouroshsajjadi@yahoo.com</a>
-          </li>
-          <li><a href="https://linkedin.com/in/kourosh-sajjadi-341271426" target="_blank" rel="noopener">LinkedIn</a></li>
-          <li>
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-            <a href="https://github.com/Ksajjadi" target="_blank" rel="noopener">GitHub</a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kourosh Sajjadi</title>
+    <meta
+      name="description"
+      content="Kourosh Sajjadi — Computer Engineering student at the University of Tehran, working across software engineering and applied AI."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a href="#top" class="logo">KOUROSH SAJJADI</a>
+        <nav class="site-nav">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
       </div>
-      <div class="hero-photo">
-        <img src="assets/img/me.jpg" alt="Kourosh Sajjadi">
-      </div>
-    </div>
-  </section>
+    </header>
 
-  <section id="about" class="section">
-    <div class="wrap">
-      <h2>About</h2>
-
-      <div class="about-grid">
-        <div class="about-block">
-          <h3>Education</h3>
-          <p><strong>University of Tehran</strong><br>
-          B.Sc. Computer Engineering, Software Engineering concentration<br>
-          School of Electrical and Computer Engineering, College of Engineering<br>
-          Sep 2021 &ndash; Expected Sep 2026</p>
-          <p>GPA 18.91/20 (3.93/4.00), ranked among the top 5% of B.Sc. students in Computer Engineering.</p>
+    <main id="top">
+      <section class="hero">
+        <div class="wrap hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">
+              B.SC. COMPUTER ENGINEERING &middot; UNIVERSITY OF TEHRAN
+            </p>
+            <h1>Hi, I'm Kourosh.</h1>
+            <p>
+              I'm a final-year Computer Engineering student at the University of
+              Tehran (GPA 18.91/20, top 5% of my cohort), working across
+              software engineering and applied AI. Most of my time right now
+              goes into three research projects: a task-grounded LLM code review
+              pipeline, a post-earthquake building damage assessment system
+              combining optical and SAR imagery, and an evaluation framework
+              built on LLM-simulated Persian students for AI tutoring.
+            </p>
+            <p>
+              I'm also part-time at RastAI, building Kotlin/Spring backends,
+              Next.js frontends, and the AI components of an LLM-powered
+              learning platform. Outside of that, I TA a handful of core CS
+              courses and spend a fair amount of time on paper reproductions and
+              course projects in computer vision, deep learning, and distributed
+              systems.
+            </p>
+            <div class="hero-actions">
+              <a
+                href="assets/CV_Kourosh_Sajjadi.pdf"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-primary"
+                >View my CV</a
+              >
+              <a href="#contact" class="btn btn-secondary">Get in touch</a>
+            </div>
+            <ul class="contact-row">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.4 7.4 6.1a.9.9 0 0 0 1.14 0l7.4-6.1a.6.6 0 0 0-.38-1.07H4.6a.6.6 0 0 0-.4 1.07Z"
+                  />
+                </svg>
+                <a href="mailto:kouroshsajjadi@yahoo.com"
+                  >kouroshsajjadi@yahoo.com</a
+                >
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                  />
+                </svg>
+                <a
+                  href="https://linkedin.com/in/kourosh-sajjadi-341271426"
+                  target="_blank"
+                  rel="noopener"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                  />
+                </svg>
+                <a
+                  href="https://github.com/Ksajjadi"
+                  target="_blank"
+                  rel="noopener"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="hero-photo">
+            <img src="assets/img/me.jpg" alt="Kourosh Sajjadi" />
+          </div>
         </div>
+      </section>
 
-        <div class="about-block">
-          <h3>Languages</h3>
-          <p><strong>English</strong> &mdash; full professional proficiency<br>
-          IELTS Academic 8.0, CEFR C1 (Oct 2025)<br>
-          Listening 9.0 &middot; Reading 8.5 &middot; Speaking 8.0 &middot; Writing 7.0</p>
-          <p><strong>Persian</strong> &mdash; native</p>
-        </div>
+      <section id="about" class="section">
+        <div class="wrap">
+          <h2>About</h2>
 
-        <div class="about-block">
-          <h3>Honors and awards</h3>
-          <ul>
-            <li>Faculty of Engineering Award, University of Tehran &mdash; recipient 2021&ndash;2022, nominee the following cycle</li>
-            <li>Benefactors Foundation Scholarship, 8th University of Tehran scholarship for talented students, 2022&ndash;2023</li>
-            <li>Top 0.5% nationally in the Iranian Nationwide University Entrance Examination</li>
+          <div class="about-grid">
+            <div class="about-block">
+              <h3>Education</h3>
+              <p>
+                <strong>University of Tehran</strong><br />
+                B.Sc. Computer Engineering, Software Engineering
+                concentration<br />
+                School of Electrical and Computer Engineering, College of
+                Engineering<br />
+                Sep 2021 &ndash; Expected Sep 2026
+              </p>
+              <p>
+                GPA 18.91/20 (3.93/4.00), ranked among the top 5% of B.Sc.
+                students in Computer Engineering.
+              </p>
+            </div>
+
+            <div class="about-block">
+              <h3>Languages</h3>
+              <p>
+                <strong>English</strong> &mdash; full professional
+                proficiency<br />
+                IELTS Academic 8.0, CEFR C1 (Oct 2025)<br />
+                Listening 9.0 &middot; Reading 8.5 &middot; Speaking 8.0
+                &middot; Writing 7.0
+              </p>
+              <p><strong>Persian</strong> &mdash; native</p>
+            </div>
+
+            <div class="about-block">
+              <h3>Honors and awards</h3>
+              <ul>
+                <li>
+                  Faculty of Engineering Award, University of Tehran &mdash;
+                  recipient 2021&ndash;2022, nominee the following cycle
+                </li>
+                <li>
+                  Benefactors Foundation Scholarship, 8th University of Tehran
+                  scholarship for talented students, 2022&ndash;2023
+                </li>
+                <li>
+                  Top 0.5% nationally in the Iranian Nationwide University
+                  Entrance Examination
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 class="skills-heading">Things I work with</h3>
+          <ul class="skill-chips">
+            <li>Python</li>
+            <li>Kotlin</li>
+            <li>Java</li>
+            <li>Go</li>
+            <li>TypeScript</li>
+            <li>JavaScript</li>
+            <li>PyTorch</li>
+            <li>TensorFlow</li>
+            <li>scikit-learn</li>
+            <li>NumPy</li>
+            <li>pandas</li>
+            <li>OpenCV</li>
+            <li>Hugging Face</li>
+            <li>LangChain</li>
+            <li>OpenAI Agents SDK</li>
+            <li>React</li>
+            <li>Next.js</li>
+            <li>Spring Boot</li>
+            <li>FastAPI</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>SQLite</li>
+            <li>Redis</li>
+            <li>Docker</li>
+            <li>Git</li>
+            <li>Linux</li>
+            <li>Apache Kafka</li>
+            <li>MLflow</li>
           </ul>
         </div>
-      </div>
+      </section>
 
-      <h3 class="skills-heading">Things I work with</h3>
-      <ul class="skill-chips">
-        <li>Python</li><li>Kotlin</li><li>Java</li><li>Go</li><li>TypeScript</li><li>JavaScript</li>
-        <li>PyTorch</li><li>TensorFlow</li><li>scikit-learn</li><li>NumPy</li><li>pandas</li><li>OpenCV</li>
-        <li>Hugging Face</li><li>LangChain</li><li>OpenAI Agents SDK</li>
-        <li>React</li><li>Next.js</li><li>Spring Boot</li><li>FastAPI</li>
-        <li>PostgreSQL</li><li>MongoDB</li><li>SQLite</li><li>Redis</li>
-        <li>Docker</li><li>Git</li><li>Linux</li><li>Apache Kafka</li><li>MLflow</li>
-      </ul>
-    </div>
-  </section>
+      <section id="research" class="section section-alt">
+        <div class="wrap">
+          <h2>Research</h2>
+          <p class="section-intro">
+            I'm currently working on three research projects at the University
+            of Tehran, spanning AI for software engineering, multimodal computer
+            vision, and AI in education. Manuscripts for the first two are
+            targeted for September/October 2026.
+          </p>
 
-  <section id="research" class="section section-alt">
-    <div class="wrap">
-      <h2>Research</h2>
-      <p class="section-intro">I'm currently working on three research projects at the University of Tehran, spanning AI for software engineering, multimodal computer vision, and AI in education. Manuscripts for the first two are targeted for September/October 2026.</p>
+          <div class="card-list">
+            <article class="card">
+              <div class="card-head">
+                <h3>
+                  TaD-REV: Task- and Domain-Grounded, Evidence-Validated
+                  Stateful Review of Code Changes
+                </h3>
+                <span class="card-meta"
+                  >B.Sc. Thesis &middot; Supervised by Prof. Ramtin Khosravi
+                  &middot; Oct 2025 &ndash; Present</span
+                >
+              </div>
+              <p>
+                A commit-level LLM code review pipeline grounded in task
+                specifications, rubrics, domain documents, and repository
+                baselines. It preserves first-pass and evidence-validated
+                outputs as structured artifacts for every reviewed commit. The
+                study runs an F0/I0/I1 design over authentic University of
+                Tehran commit histories, with stable finding IDs, a validated
+                cross-commit ledger, full telemetry, and a 75-finding
+                double-annotated sample.
+              </p>
+            </article>
 
-      <div class="card-list">
-        <article class="card">
-          <div class="card-head">
-            <h3>TaD-REV: Task- and Domain-Grounded, Evidence-Validated Stateful Review of Code Changes</h3>
-            <span class="card-meta">B.Sc. Thesis &middot; Supervised by Prof. Ramtin Khosravi &middot; Oct 2025 &ndash; Present</span>
+            <article class="card">
+              <div class="card-head">
+                <h3>
+                  HARBOR: Post-Earthquake Building Damage Assessment from
+                  Pre-Event Optical and Post-Event SAR Imagery
+                </h3>
+                <span class="card-meta"
+                  >With Dr. Ahmad Toosi, under Prof. Farhad Samadzadegan
+                  &middot; Oct 2025 &ndash; Present</span
+                >
+              </div>
+              <p>
+                Benchmarks U-Net and ChangeMamba on 373 earthquake test tiles.
+                Building localization reaches 91.56% F1, but damage
+                classification drops to 32.77%, with 74.4% of damaged and 54.8%
+                of destroyed buildings predicted as intact. I'm driving a
+                three-stage architecture built around an affected-building gate,
+                reliability-gated optical&ndash;SAR alignment, and object-region
+                pooling to close that gap.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-head">
+                <h3>
+                  LLM-Simulated Persian Students for Evaluating AI Tutoring and
+                  Personalization
+                </h3>
+                <span class="card-meta"
+                  >Supervised by Prof. Majid Nili Ahmadabadi &middot; Feb 2026
+                  &ndash; Present</span
+                >
+              </div>
+              <p>
+                LLM-based Persian student personas with bounded knowledge,
+                stable misconceptions, confidence, engagement, and help-seeking
+                behavior, built to evaluate an AI tutor before enough real
+                dialogue exists. I'm building a black-box harness for
+                5&ndash;10-turn LMS sessions that records transcripts and
+                metadata for persona consistency, misconception stability, and
+                tutor-strategy analysis. The output will be a controlled
+                dialogue dataset for evaluation and future personalization work.
+              </p>
+            </article>
           </div>
-          <p>A commit-level LLM code review pipeline grounded in task specifications, rubrics, domain documents, and repository baselines. It preserves first-pass and evidence-validated outputs as structured artifacts for every reviewed commit. The study runs an F0/I0/I1 design over authentic University of Tehran commit histories, with stable finding IDs, a validated cross-commit ledger, full telemetry, and a 75-finding double-annotated sample.</p>
-        </article>
+        </div>
+      </section>
 
-        <article class="card">
-          <div class="card-head">
-            <h3>HARBOR: Post-Earthquake Building Damage Assessment from Pre-Event Optical and Post-Event SAR Imagery</h3>
-            <span class="card-meta">With Dr. Ahmad Toosi, under Prof. Farhad Samadzadegan &middot; Oct 2025 &ndash; Present</span>
+      <section id="experience" class="section">
+        <div class="wrap">
+          <h2>Experience</h2>
+
+          <div class="card-list">
+            <article class="card">
+              <div class="card-head">
+                <h3>Part-Time Full-Stack Developer and AI Engineer</h3>
+                <span class="card-meta"
+                  >RastAI, University of Tehran Science and Technology Park
+                  &middot; Nov 2025 &ndash; Present</span
+                >
+              </div>
+              <p>
+                I build Kotlin and Spring backend services, Next.js and React
+                interfaces, and Python AI components for an LLM-powered
+                personalized learning platform. I also design agentic workflows
+                with the OpenAI Agents SDK, LangChain, and Langfuse, covering
+                API integration, tracing, evaluation, and observability, and
+                work with the product team to turn learning requirements into
+                system designs.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-head">
+                <h3>Computer Vision Intern</h3>
+                <span class="card-meta"
+                  >Private company, via University of Tehran &middot; Summer
+                  2024</span
+                >
+              </div>
+              <p>
+                Built Python computer vision applications spanning image
+                processing, OCR, classification, object detection, pose
+                estimation, and segmentation, using OpenCV, MediaPipe, EasyOCR,
+                YOLOv8, scikit-learn, Segment Anything, Streamlit, Stable
+                Diffusion, and DeepFace.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-head">
+                <h3>Teaching Assistant</h3>
+                <span class="card-meta"
+                  >School of Electrical and Computer Engineering, University of
+                  Tehran &middot; 2023 &ndash; 2026</span
+                >
+              </div>
+              <ul class="ta-list">
+                <li>
+                  <strong>Artificial Intelligence</strong> &mdash; Spring 2025
+                  through Spring 2026, with Dr. Hakimeh Fadaei and Dr. Yadollah
+                  Yaghoobzadeh
+                </li>
+                <li>
+                  <strong>Computer Networks</strong> &mdash; Spring 2025, with
+                  Dr. Naser Yazdani; Fall 2025, with Dr. Ahmad Khonsari
+                </li>
+                <li>
+                  <strong>Principles of Database Design</strong> &mdash; Spring
+                  2025 through Spring 2026, with Dr. Azadeh Shakery
+                </li>
+                <li>
+                  <strong>Compiler Design and Programming Languages</strong>
+                  &mdash; Fall 2024 through Fall 2025, with Dr. Fatemeh Ghassemi
+                </li>
+                <li>
+                  <strong>Data Structures and Algorithms</strong> &mdash; Fall
+                  2023 through Spring 2025, with Dr. Heshaam Faili
+                </li>
+              </ul>
+              <p>
+                Teaching has sharpened how I explain technical decisions, where
+                students actually get stuck, and how to design assignments that
+                test understanding instead of memorization.
+              </p>
+            </article>
           </div>
-          <p>Benchmarks U-Net and ChangeMamba on 373 earthquake test tiles. Building localization reaches 91.56% F1, but damage classification drops to 32.77%, with 74.4% of damaged and 54.8% of destroyed buildings predicted as intact. I'm driving a three-stage architecture built around an affected-building gate, reliability-gated optical&ndash;SAR alignment, and object-region pooling to close that gap.</p>
-        </article>
+        </div>
+      </section>
 
-        <article class="card">
-          <div class="card-head">
-            <h3>LLM-Simulated Persian Students for Evaluating AI Tutoring and Personalization</h3>
-            <span class="card-meta">Supervised by Prof. Majid Nili Ahmadabadi &middot; Feb 2026 &ndash; Present</span>
+      <section id="projects" class="section section-alt">
+        <div class="wrap">
+          <h2>Projects</h2>
+          <p class="section-intro">
+            Six public repositories, mostly course work and paper reproductions.
+            Live stats on each are on my
+            <a href="https://github.com/Ksajjadi" target="_blank" rel="noopener"
+              >GitHub profile</a
+            >.
+          </p>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <h3>
+                <a
+                  href="https://github.com/Ksajjadi/Deep-Learning-CourseProjects"
+                  target="_blank"
+                  rel="noopener"
+                  >Deep Learning Course Projects</a
+                >
+              </h3>
+              <p>
+                Seven assignments reproducing published papers: plant-disease
+                classification, brain-MRI segmentation, a VampPrior VAE, and
+                LoRA fine-tuning of an 8B-parameter diffusion LLM.
+              </p>
+              <ul class="tag-list">
+                <li>Python</li>
+                <li>PyTorch</li>
+                <li>TensorFlow</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <h3>
+                <a
+                  href="https://github.com/Ksajjadi/DistributedSystems-CourseProjects"
+                  target="_blank"
+                  rel="noopener"
+                  >Distributed Systems Course Projects</a
+                >
+              </h3>
+              <p>
+                RPC, MapReduce, Raft consensus, and sharded key-value stores in
+                Go, following MIT 6.5840/6.824-style labs.
+              </p>
+              <ul class="tag-list">
+                <li>Go</li>
+                <li>RPC</li>
+                <li>Raft</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <h3>
+                <a
+                  href="https://github.com/Ksajjadi/CPS-FinalProject"
+                  target="_blank"
+                  rel="noopener"
+                  >Bird's-Eye-View Stitching System</a
+                >
+              </h3>
+              <p>
+                Real-time surround-view simulator in C++/OpenCV with Qt and
+                Raspberry Pi support, with an image-stitching path measured at
+                roughly 23 ms per frame.
+              </p>
+              <ul class="tag-list">
+                <li>C++</li>
+                <li>OpenCV</li>
+                <li>Qt</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <h3>
+                <a
+                  href="https://github.com/Ksajjadi/DS-FinalProject"
+                  target="_blank"
+                  rel="noopener"
+                  >Spotify Song Recommendation System</a
+                >
+              </h3>
+              <p>
+                Content-based KNN recommender covering feature engineering,
+                MLflow experiment tracking, and Power BI dashboarding.
+              </p>
+              <ul class="tag-list">
+                <li>Python</li>
+                <li>SQLite</li>
+                <li>MLflow</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <h3>
+                <a
+                  href="https://github.com/Ksajjadi/SE1-CourseProjects"
+                  target="_blank"
+                  rel="noopener"
+                  >Software Engineering Matching Engine</a
+                >
+              </h3>
+              <p>
+                TinyME matching engine evolved through Spring/Artemis JMS
+                messaging, new order types, and design-pattern-based
+                restructuring.
+              </p>
+              <ul class="tag-list">
+                <li>Java</li>
+                <li>Spring</li>
+                <li>JUnit</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <h3>
+                <a
+                  href="https://github.com/Ksajjadi/CV-CourseProjects"
+                  target="_blank"
+                  rel="noopener"
+                  >Computer Vision Course Projects</a
+                >
+              </h3>
+              <p>
+                Hand-written image processing, non-ML CAPTCHA OCR, pretrained
+                detection and segmentation pipelines, and a from-scratch pix2pix
+                GAN.
+              </p>
+              <ul class="tag-list">
+                <li>Python</li>
+                <li>OpenCV</li>
+                <li>PyTorch</li>
+              </ul>
+            </article>
           </div>
-          <p>LLM-based Persian student personas with bounded knowledge, stable misconceptions, confidence, engagement, and help-seeking behavior, built to evaluate an AI tutor before enough real dialogue exists. I'm building a black-box harness for 5&ndash;10-turn LMS sessions that records transcripts and metadata for persona consistency, misconception stability, and tutor-strategy analysis. The output will be a controlled dialogue dataset for evaluation and future personalization work.</p>
-        </article>
-      </div>
-    </div>
-  </section>
+        </div>
+      </section>
 
-  <section id="experience" class="section">
-    <div class="wrap">
-      <h2>Experience</h2>
-
-      <div class="card-list">
-        <article class="card">
-          <div class="card-head">
-            <h3>Part-Time Full-Stack Developer and AI Engineer</h3>
-            <span class="card-meta">RastAI, University of Tehran Science and Technology Park &middot; Nov 2025 &ndash; Present</span>
-          </div>
-          <p>I build Kotlin and Spring backend services, Next.js and React interfaces, and Python AI components for an LLM-powered personalized learning platform. I also design agentic workflows with the OpenAI Agents SDK, LangChain, and Langfuse, covering API integration, tracing, evaluation, and observability, and work with the product team to turn learning requirements into system designs.</p>
-        </article>
-
-        <article class="card">
-          <div class="card-head">
-            <h3>Computer Vision Intern</h3>
-            <span class="card-meta">Private company, via University of Tehran &middot; Summer 2024</span>
-          </div>
-          <p>Built Python computer vision applications spanning image processing, OCR, classification, object detection, pose estimation, and segmentation, using OpenCV, MediaPipe, EasyOCR, YOLOv8, scikit-learn, Segment Anything, Streamlit, Stable Diffusion, and DeepFace.</p>
-        </article>
-
-        <article class="card">
-          <div class="card-head">
-            <h3>Teaching Assistant</h3>
-            <span class="card-meta">School of Electrical and Computer Engineering, University of Tehran &middot; 2023 &ndash; 2026</span>
-          </div>
-          <ul class="ta-list">
-            <li><strong>Artificial Intelligence</strong> &mdash; Spring 2025 through Spring 2026, with Dr. Hakimeh Fadaei and Dr. Yadollah Yaghoobzadeh</li>
-            <li><strong>Computer Networks</strong> &mdash; Spring 2025, with Dr. Naser Yazdani; Fall 2025, with Dr. Ahmad Khonsari</li>
-            <li><strong>Principles of Database Design</strong> &mdash; Spring 2025 through Spring 2026, with Dr. Azadeh Shakery</li>
-            <li><strong>Compiler Design and Programming Languages</strong> &mdash; Fall 2024 through Fall 2025, with Dr. Fatemeh Ghassemi</li>
-            <li><strong>Data Structures and Algorithms</strong> &mdash; Fall 2023 through Spring 2025, with Dr. Heshaam Faili</li>
+      <section id="contact" class="section contact-section">
+        <div class="wrap">
+          <h2>Contact</h2>
+          <p class="section-intro">
+            If you want to talk about research, RastAI, or any of the projects
+            above, reach out.
+          </p>
+          <ul class="contact-row contact-row-large">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.4 7.4 6.1a.9.9 0 0 0 1.14 0l7.4-6.1a.6.6 0 0 0-.38-1.07H4.6a.6.6 0 0 0-.4 1.07Z"
+                />
+              </svg>
+              <a href="mailto:kouroshsajjadi@yahoo.com"
+                >kouroshsajjadi@yahoo.com</a
+              >
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+                />
+              </svg>
+              <a
+                href="https://linkedin.com/in/kourosh-sajjadi-341271426"
+                target="_blank"
+                rel="noopener"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                />
+              </svg>
+              <a
+                href="https://github.com/Ksajjadi"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ksajjadi.github.io"
+                target="_blank"
+                rel="noopener"
+                >ksajjadi.github.io</a
+              >
+            </li>
           </ul>
-          <p>Teaching has sharpened how I explain technical decisions, where students actually get stuck, and how to design assignments that test understanding instead of memorization.</p>
-        </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Kourosh Sajjadi &middot; Tehran, Iran</p>
       </div>
-    </div>
-  </section>
-
-  <section id="projects" class="section section-alt">
-    <div class="wrap">
-      <h2>Projects</h2>
-      <p class="section-intro">Six public repositories, mostly course work and paper reproductions. Live stats on each are on my <a href="https://github.com/Ksajjadi" target="_blank" rel="noopener">GitHub profile</a>.</p>
-
-      <div class="project-grid">
-        <article class="project-card">
-          <h3><a href="https://github.com/Ksajjadi/Deep-Learning-CourseProjects" target="_blank" rel="noopener">Deep Learning Course Projects</a></h3>
-          <p>Seven assignments reproducing published papers: plant-disease classification, brain-MRI segmentation, a VampPrior VAE, and LoRA fine-tuning of an 8B-parameter diffusion LLM.</p>
-          <ul class="tag-list"><li>Python</li><li>PyTorch</li><li>TensorFlow</li></ul>
-        </article>
-
-        <article class="project-card">
-          <h3><a href="https://github.com/Ksajjadi/DistributedSystems-CourseProjects" target="_blank" rel="noopener">Distributed Systems Course Projects</a></h3>
-          <p>RPC, MapReduce, Raft consensus, and sharded key-value stores in Go, following MIT 6.5840/6.824-style labs.</p>
-          <ul class="tag-list"><li>Go</li><li>RPC</li><li>Raft</li></ul>
-        </article>
-
-        <article class="project-card">
-          <h3><a href="https://github.com/Ksajjadi/CPS-FinalProject" target="_blank" rel="noopener">Bird's-Eye-View Stitching System</a></h3>
-          <p>Real-time surround-view simulator in C++/OpenCV with Qt and Raspberry Pi support, with an image-stitching path measured at roughly 23 ms per frame.</p>
-          <ul class="tag-list"><li>C++</li><li>OpenCV</li><li>Qt</li></ul>
-        </article>
-
-        <article class="project-card">
-          <h3><a href="https://github.com/Ksajjadi/DS-FinalProject" target="_blank" rel="noopener">Spotify Song Recommendation System</a></h3>
-          <p>Content-based KNN recommender covering feature engineering, MLflow experiment tracking, and Power BI dashboarding.</p>
-          <ul class="tag-list"><li>Python</li><li>SQLite</li><li>MLflow</li></ul>
-        </article>
-
-        <article class="project-card">
-          <h3><a href="https://github.com/Ksajjadi/SE1-CourseProjects" target="_blank" rel="noopener">Software Engineering Matching Engine</a></h3>
-          <p>TinyME matching engine evolved through Spring/Artemis JMS messaging, new order types, and design-pattern-based restructuring.</p>
-          <ul class="tag-list"><li>Java</li><li>Spring</li><li>JUnit</li></ul>
-        </article>
-
-        <article class="project-card">
-          <h3><a href="https://github.com/Ksajjadi/CV-CourseProjects" target="_blank" rel="noopener">Computer Vision Course Projects</a></h3>
-          <p>Hand-written image processing, non-ML CAPTCHA OCR, pretrained detection and segmentation pipelines, and a from-scratch pix2pix GAN.</p>
-          <ul class="tag-list"><li>Python</li><li>OpenCV</li><li>PyTorch</li></ul>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact" class="section contact-section">
-    <div class="wrap">
-      <h2>Contact</h2>
-      <p class="section-intro">If you want to talk about research, RastAI, or any of the projects above, reach out.</p>
-      <ul class="contact-row contact-row-large">
-        <li>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.4 7.4 6.1a.9.9 0 0 0 1.14 0l7.4-6.1a.6.6 0 0 0-.38-1.07H4.6a.6.6 0 0 0-.4 1.07Z"/></svg>
-          <a href="mailto:kouroshsajjadi@yahoo.com">kouroshsajjadi@yahoo.com</a>
-        </li>
-        <li><a href="https://linkedin.com/in/kourosh-sajjadi-341271426" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li>
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
-          <a href="https://github.com/Ksajjadi" target="_blank" rel="noopener">GitHub</a>
-        </li>
-        <li><a href="https://ksajjadi.github.io" target="_blank" rel="noopener">ksajjadi.github.io</a></li>
-      </ul>
-    </div>
-  </section>
-
-</main>
-
-<footer class="site-footer">
-  <div class="wrap">
-    <p>Kourosh Sajjadi &middot; Tehran, Iran</p>
-  </div>
-</footer>
-
-</body>
+    </footer>
+  </body>
 </html>
