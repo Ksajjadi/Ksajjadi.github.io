@@ -51,6 +51,30 @@ a:hover {
   color: var(--accent-hover);
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid rgba(52, 21, 57, 0.28);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -56px;
+  z-index: 100;
+  padding: 10px 14px;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+
+.skip-link:focus {
+  top: 12px;
+  color: #fff;
+}
+
 h1,
 h2,
 h3 {
@@ -68,6 +92,12 @@ h2 {
 h3 {
   font-size: 1.15rem;
   margin-bottom: 8px;
+}
+
+h4 {
+  margin: 0 0 6px;
+  font-size: 0.9rem;
+  line-height: 1.3;
 }
 
 p {
@@ -327,6 +357,37 @@ ul {
   font-weight: 500;
 }
 
+.interest-chips {
+  margin-bottom: 34px;
+}
+
+.skill-groups-heading {
+  margin-top: 0;
+}
+
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.skill-group {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 18px;
+}
+
+.skill-group h4 {
+  color: var(--accent);
+}
+
+.skill-group p {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
 /* Cards (Research / Experience) */
 
 .card-list {
@@ -355,6 +416,18 @@ ul {
 
 .card p:last-child {
   margin-bottom: 0;
+}
+
+.card-links {
+  margin-top: 14px;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.card-links a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 .ta-list {
@@ -457,6 +530,9 @@ ul {
   .about-grid {
     grid-template-columns: 1fr;
   }
+  .skill-groups {
+    grid-template-columns: 1fr;
+  }
   h1 {
     font-size: 2rem;
   }
@@ -478,5 +554,20 @@ ul {
   }
   .site-nav a {
     font-size: 0.85rem;
+  }
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
   }
 }
